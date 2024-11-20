@@ -1,7 +1,7 @@
 #client
 import socket
 
-SERVER_ADDRESS = ("192.168.1.140", 9000)
+SERVER_ADDRESS = ("192.168.1.143", 9000)
 BUFFER_SIZE = 4096
     
 def main():
