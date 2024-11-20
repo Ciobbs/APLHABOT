@@ -3,7 +3,7 @@ import time
 from pynput import keyboard
 
 # Indirizzo IP e porta dell'Alphabot a cui ci connettiamo
-SERVER_ADDRESS = ("192.168.1.140", 9090)
+SERVER_ADDRESS = ("192.168.1.143", 9090)
 BUFFER_SIZE = 4096
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)   # Creazione del socket TCP per la comunicazione con il server
